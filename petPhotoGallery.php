@@ -400,28 +400,6 @@
                         <img src="images/petPhotoGallery/dogs/Tader.png" alt="Tader - Dog" class="galleryImg">
                     </div>
                 </div>
-                <div class="row">
-                    <div class="column4-22c">
-                        <img src="images/petPhotoGallery/dogs/Teddy.png" alt="Teddy - Dog" class="galleryImg">
-                    </div>
-                    <div class="column4-22c">
-                        <img src="images/petPhotoGallery/dogs/Theo.png" alt="Theo - Dog" class="galleryImg">
-                    </div>
-                    <div class="column4-22c">
-                        <img src="images/petPhotoGallery/dogs/Truman.png" alt="Truman - Dog" class="galleryImg">
-                    </div>
-                    <div class="column4-22c">
-                        <img src="images/petPhotoGallery/dogs/tucker.png" alt="Tucker - Dog" class="galleryImg">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="column4-22c">
-                        <img src="images/petPhotoGallery/dogs/Wrigley.png" alt="Wrigley - Dog" class="galleryImg">
-                    </div>
-                    <div class="column4-22c">
-                        <img src="images/petPhotoGallery/dogs/Yogi.png" alt="Yogi - Dog" class="galleryImg">
-                    </div>
-                </div>
             </div>
             <!--Cats-->
             <div class="gallerySection">
