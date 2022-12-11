@@ -86,9 +86,6 @@
     $client_message = "Thank you $full_name for your submission. We 
         will be sure to respond within the next 24-48 hours. We look 
         forward to talking to you then!";
-
-    //Send Client Email
-    $client_send = mail($client_email, $client_subject, $client_message, $company_email);
     
     //Company Subject
     $company_subject = "$first_name completed the contact us form";
@@ -100,13 +97,6 @@
         $first_name was looking for services on $availability_preference 
         at their property at $street_address in $city, $state. They left 
         the following message: $submitted_message.";
-    
-    //Send Company Email
-    $company_send = mail($company_email, $company_subject, $company_message, $client_email);
-
-    if (!$client_send || !$company_send) {
-        include 'contactUs.php';
-    }
 ?>
 
 <!--
