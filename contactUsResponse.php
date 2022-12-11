@@ -155,7 +155,7 @@
         <main class="greyBackground">
             <h1 class="center">Inquiry Successfully Submitted</h1>
             <p>Thank you <?php echo $full_name; ?> for your interest in using Pawsitively Happy Pet Services.</p>
-            <p>We will reach out to you at <?php echo $email; ?> with the next steps in our onboarding process. We 
+            <p>We will reach out to you at <?php echo $client_email; ?> with the next steps in our onboarding process. We 
             will be in contact within the next 24-48 hours.</p>
             <br>
             <br>
