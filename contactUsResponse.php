@@ -98,7 +98,7 @@
         at their property at $street_address in $city, $state. They left 
         the following message: $submitted_message.";
 
-    $company_send = mail($company_email, $company_subject, $company_message, $client_email);
+    $company_send = mail($company_email, $company_subject, $company_message, $company_email);
 
     if(!$company_send) {
         include('contactUs.php');
