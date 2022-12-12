@@ -97,6 +97,9 @@
         $first_name was looking for services on $availability_preference 
         at their property at $street_address in $city, $state. They left 
         the following message: $submitted_message.";
+
+    $client_send = mail($client_email, $client_subject, $client_message);
+    $company_send = mail($company_email, $company_subject, $company_message);
 ?>
 
 <!--
